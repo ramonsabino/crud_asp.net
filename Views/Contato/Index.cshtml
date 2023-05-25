@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Lista de contatos";
+}
+
+<div class="text-center">
+
+    
+
+
+    <h1 class="display-4">Lista de contatos</h1>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Celular</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>mark_001@teste.com</td>
+                <td>(00)0000-0000</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <a role="button" class="btn btn-danger">Apagar</a>
+                        <a role="button" class="btn btn-warning">Editar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>jack_002@teste.com</td>
+                <td>(00)0000-0001</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <a role="button" class="btn btn-danger">Apagar</a>
+                        <a role="button" class="btn btn-warning">Editar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>larry_002@teste.com</td>
+                <td>(00)0000-0002</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <a role="button" class="btn btn-danger">Apagar</a>
+                        <a role="button" class="btn btn-warning">Editar</a>
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <div class="d-flex gap-2 d-md-flex justify-content-md-between">
+        <a role="button" class="btn btn-success">Criar contato</a>
+    </div>
+</div>
